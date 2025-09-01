@@ -1,0 +1,145 @@
+[
+  {
+    "Message": "No components found in view 'BI Studio' with id '5465c134-e928-472f-b7a9-99b6922ec0bb'.",
+    "Level": "Warning",
+    "Reason": "NotFound",
+    "Category": "General",
+    "Context": {
+      "ComponentId": null,
+      "ViewId": "5465c134-e928-472f-b7a9-99b6922ec0bb"
+    },
+    "UTCTimestamp": "2025-08-28T09:50:00.8977417Z"
+  },
+  {
+    "Message": "Submit or reset type button outside of a form. Interaction is not generated! Current component id 'e3ef6cca-08e3-483d-afa0-702853a3c08a', view id 'a8e5e802-e01e-49d9-987f-6c7fe5280b65'",
+    "Level": "Warning",
+    "Reason": "Unspecified",
+    "Category": "Form",
+    "Context": {
+      "ComponentId": "e3ef6cca-08e3-483d-afa0-702853a3c08a",
+      "ViewId": "a8e5e802-e01e-49d9-987f-6c7fe5280b65"
+    },
+    "UTCTimestamp": "2025-08-28T09:50:00.9012413Z"
+  },
+  {
+    "Message": "Submit or reset type button outside of a form. Interaction is not generated! Current component id 'f86c1512-954e-43c2-a584-4a4af1314900', view id 'ee384bb0-b83f-4401-bf1c-af3b5e3dd3a4'",
+    "Level": "Warning",
+    "Reason": "Unspecified",
+    "Category": "Form",
+    "Context": {
+      "ComponentId": "f86c1512-954e-43c2-a584-4a4af1314900",
+      "ViewId": "ee384bb0-b83f-4401-bf1c-af3b5e3dd3a4"
+    },
+    "UTCTimestamp": "2025-08-28T09:50:00.9044812Z"
+  },
+  {
+    "Message": "No components found in view 'BI Studio' with id '5465c134-e928-472f-b7a9-99b6922ec0bb'.",
+    "Level": "Warning",
+    "Reason": "NotFound",
+    "Category": "General",
+    "Context": {
+      "ComponentId": null,
+      "ViewId": "5465c134-e928-472f-b7a9-99b6922ec0bb"
+    },
+    "UTCTimestamp": "2025-08-28T09:50:00.904619Z"
+  },
+  {
+    "Message": "Component with id '5da5d1d8-fe9d-495c-9f41-078fdd3387be', has conditional dependency against property 'igxToggleAction' which was not found. Dependency not generated.",
+    "Level": "Error",
+    "Reason": "NotFound",
+    "Category": "Component",
+    "Context": {
+      "ComponentId": "5da5d1d8-fe9d-495c-9f41-078fdd3387be",
+      "ViewId": "71e22772-34de-4cdb-a717-98d9e002abd1"
+    },
+    "UTCTimestamp": "2025-08-28T09:50:02.8419027Z"
+  },
+  {
+    "Message": "Library with id '' was not found.",
+    "Level": "Error",
+    "Reason": "NotFound",
+    "Category": "Component",
+    "Context": {
+      "ComponentId": null,
+      "ViewId": null
+    },
+    "UTCTimestamp": "2025-08-28T09:50:02.8458203Z"
+  },
+  {
+    "Message": "Missing definition id!",
+    "Level": "Error",
+    "Reason": "NotFound",
+    "Category": "Component",
+    "Context": {
+      "ComponentId": null,
+      "ViewId": null
+    },
+    "UTCTimestamp": "2025-08-28T09:50:02.8458223Z"
+  },
+  {
+    "Message": "Library with id '' was not found.",
+    "Level": "Error",
+    "Reason": "NotFound",
+    "Category": "Component",
+    "Context": {
+      "ComponentId": null,
+      "ViewId": null
+    },
+    "UTCTimestamp": "2025-08-28T09:50:02.845872Z"
+  },
+  {
+    "Message": "Missing definition id!",
+    "Level": "Error",
+    "Reason": "NotFound",
+    "Category": "Component",
+    "Context": {
+      "ComponentId": null,
+      "ViewId": null
+    },
+    "UTCTimestamp": "2025-08-28T09:50:02.8458723Z"
+  },
+  {
+    "Message": "Library with id '' was not found.",
+    "Level": "Error",
+    "Reason": "NotFound",
+    "Category": "Component",
+    "Context": {
+      "ComponentId": null,
+      "ViewId": null
+    },
+    "UTCTimestamp": "2025-08-28T09:50:02.8485358Z"
+  },
+  {
+    "Message": "Missing definition id!",
+    "Level": "Error",
+    "Reason": "NotFound",
+    "Category": "Component",
+    "Context": {
+      "ComponentId": null,
+      "ViewId": null
+    },
+    "UTCTimestamp": "2025-08-28T09:50:02.8485375Z"
+  },
+  {
+    "Message": "Library with id '' was not found.",
+    "Level": "Error",
+    "Reason": "NotFound",
+    "Category": "Component",
+    "Context": {
+      "ComponentId": null,
+      "ViewId": null
+    },
+    "UTCTimestamp": "2025-08-28T09:50:02.848582Z"
+  },
+  {
+    "Message": "Missing definition id!",
+    "Level": "Error",
+    "Reason": "NotFound",
+    "Category": "Component",
+    "Context": {
+      "ComponentId": null,
+      "ViewId": null
+    },
+    "UTCTimestamp": "2025-08-28T09:50:02.8485823Z"
+  }
+]

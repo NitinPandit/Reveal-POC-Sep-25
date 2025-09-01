@@ -1,0 +1,77 @@
+<div class="column-layout root-layout">
+  <div class="row-layout menu-row-layout">
+    <img src="/assets/Tech-Mahindra-true%20color%20logo.png" class="logo" />
+    <div class="row-layout menu-items">
+      <h5 [routerLink]="['/master-view/about']" class="h5">
+        About Us
+      </h5>
+      <h5 class="h5">
+        Capabilities
+      </h5>
+      <h5 class="h5">
+        Dashboards
+      </h5>
+    </div>
+    <img src="/assets/ScaleAtSpeed_RedLogo.png" class="scale-at-speed-image" />
+  </div>
+  <div class="row-layout root-layout">
+    <div class="column-layout root-layout">
+      <igx-navbar class="navbar">
+        <igx-navbar-action>
+          <button igxIconButton="flat" igxRipple [igxToggleAction]="navDrawer" class="icon-button">
+            <igx-icon class="icon">
+              menu
+            </igx-icon>
+          </button>
+        </igx-navbar-action>
+        <igx-navbar-title class="navbar-content">
+          <h6 class="h6">
+            Tech Mahindra BI
+          </h6>
+        </igx-navbar-title>
+        <button igxIconButton="flat" igxRipple class="icon-button">
+          <igx-icon class="icon">
+            search
+          </igx-icon>
+        </button>
+        <button igxIconButton="flat" igxRipple class="icon-button">
+          <igx-icon class="icon">
+            favorite
+          </igx-icon>
+        </button>
+        <button igxIconButton="flat" igxRipple class="icon-button">
+          <igx-icon class="icon">
+            more_vert
+          </igx-icon>
+        </button>
+      </igx-navbar>
+      <div class="row-layout group">
+        <igx-nav-drawer [pin]="true" width="320px" #navDrawer class="nav-drawer">
+          <ng-template igxDrawer>
+            <div igxDrawerItem igxRipple [routerLink]="['/bi-master/dashboards']">
+              <igx-icon class="icon_1">
+                dashboard
+              </igx-icon>
+              <span>My Dashboards</span>
+            </div>
+            <div igxDrawerItem igxRipple [routerLink]="['/bi-master/bi-studio']">
+              <igx-icon class="icon_1">
+                add_chart
+              </igx-icon>
+              <span>Create Dashboards</span>
+            </div>
+            <div igxDrawerItem igxRipple [routerLink]="['/bi-master/datasources']">
+              <igx-icon class="icon_1">
+                query_stats
+              </igx-icon>
+              <span>Manage Data Sources</span>
+            </div>
+          </ng-template>
+        </igx-nav-drawer>
+        <div class="view-container">
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

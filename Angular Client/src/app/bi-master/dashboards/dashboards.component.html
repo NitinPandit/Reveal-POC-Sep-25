@@ -1,0 +1,34 @@
+<div class="column-layout group">
+  <h5 class="h5">
+    Here are all the dashboards available for you...
+  </h5>
+  @for (item of this.dashboardNames; track item) {
+    <igx-card class="card">
+      <igx-card-header>
+        <h3 igxCardHeaderTitle>
+          {{ item }}
+        </h3>
+        <!-- <h5 igxCardHeaderSubtitle>
+          Subtitle goes here...
+        </h5> -->
+      </igx-card-header>
+      <igx-card-actions class="actions-content">
+        <ng-container igxStart>
+          <button igxButton="contained" type="button" igxRipple [routerLink]="['/bi-master/view-dashboard', item]" class="button">
+            View
+          </button>
+        </ng-container>
+        <ng-container igxEnd>
+          <button igxIconButton="flat" igxRipple (click)="copyLink(item)">
+            <igx-icon>
+              share
+            </igx-icon>
+          </button>
+        </ng-container>
+      </igx-card-actions>
+    </igx-card>
+  }
+  <div class="row-layout group_1">
+    <igx-paginator class="paginator"></igx-paginator>
+  </div>
+</div>

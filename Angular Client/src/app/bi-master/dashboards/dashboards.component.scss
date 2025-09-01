@@ -1,0 +1,53 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.group {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 20px;
+  position: relative;
+  padding: 100px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.card {
+  width: 320px;
+  height: max-content;
+  min-width: 320px;
+  max-width: 320px;
+  align-self: start;
+}
+.row-layout {
+  display: flex;
+}
+.group_1 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+}
+.h5 {
+  height: max-content;
+  min-width: min-content;
+}
+.actions-content {
+  min-width: 50px;
+  min-height: 40px;
+}
+.paginator {
+  flex-grow: 1;
+}
+.button {
+  --igx-button-background: var(--ig-primary-300);
+  --ig-size: var(--ig-size-medium);
+  height: max-content;
+}

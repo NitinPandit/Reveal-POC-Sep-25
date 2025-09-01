@@ -1,0 +1,22 @@
+<div class="column-layout root-layout">
+  <div class="row-layout menu-row-layout">
+    <img src="/assets/Tech-Mahindra-true%20color%20logo.png" class="logo" />
+    <div class="row-layout menu-items">
+      <h5 [routerLink]="['/master-view/about']" class="h5">
+        About Us
+      </h5>
+      <h5 class="h5">
+        Capabilities
+      </h5>
+      <h5 [routerLink]="['/bi-master/dashboards']" class="h5">
+        Dashboards
+      </h5>
+    </div>
+    <img src="/assets/ScaleAtSpeed_RedLogo.png" class="scale-at-speed-image" />
+  </div>
+  <div class="row-layout root-layout">
+    <div class="view-container">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,42 @@
+<div class="column-layout group">
+  <igx-grid [data]="dataSources" primaryKey="id" [allowFiltering]="true" filterMode="excelStyleFilter" class="grid">
+    <igx-paginator></igx-paginator>
+    <igx-column field="id" dataType="number" header="DB ID" [filterable]="true" [sortable]="true" [selectable]="false"></igx-column>
+    <igx-column field="title" dataType="string" header="Title" [filterable]="true" [sortable]="true" [selectable]="false"></igx-column>
+    <igx-column field="original_name" dataType="string" header="Original File Name" [filterable]="true" [sortable]="true" [selectable]="false"></igx-column>
+  </igx-grid>
+</div>
+<div class="column-layout group_1">
+  <h5 class="h5">
+    Add New Data Source
+  </h5>
+  <igx-checkbox labelPosition="after" (click)="clickCheckbox()" class="checkbox" checked="true">
+    Is Local File
+  </igx-checkbox>
+  <igx-input-group type="border" class="data-source-id">
+    <input type="text" igxInput [(ngModel)]="DSId" />
+    <label igxLabel>Data Source ID</label>
+  </igx-input-group>
+  <igx-input-group type="border" class="data-source-id">
+    <input type="text" igxInput [(ngModel)]="DSTitle" />
+    <label igxLabel>Data Source Title</label>
+  </igx-input-group>
+  @if (dataSourceFileVisible) {
+    <igx-input-group type="border" class="data-source-id">
+      <input type="file" igxInput #fileUpload />
+      <label igxLabel>Upload File</label>
+    </igx-input-group>
+  }
+  @if (dataSourceFileURLVisible) {
+    <igx-input-group type="border" class="data-source-id">
+      <input type="text" igxInput [(ngModel)]="DSFileURL" />
+      <label igxLabel>Data Source File URL</label>
+    </igx-input-group>
+  }
+  <button igxButton="contained" type="button" igxRipple class="button" (click)="save()">
+    <igx-icon class="icon">
+      add_task
+    </igx-icon>
+    <span>Save</span>
+  </button>
+</div>
